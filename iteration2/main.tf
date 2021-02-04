@@ -198,7 +198,7 @@ resource "null_resource" "ubuntu" {
 	  host = "10.79.1.8"
       
 	  user = "vmware"
-	  password = "VMwareD1!"
+	  password = "VMware1!"
   }
 
   provisioner "remote-exec" {

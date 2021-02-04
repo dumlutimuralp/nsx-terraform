@@ -42,7 +42,7 @@ resource "nsxt_policy_vlan_segment" "uplink_vlan" {
 
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "byterraform"
     }
 
 }
@@ -62,7 +62,7 @@ resource "nsxt_policy_tier0_gateway" "tier0_new" {
  
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "byterraform"
     }
 }
 
@@ -79,7 +79,7 @@ resource "nsxt_policy_tier0_gateway_interface" "uplink1edgefirst" {
 
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "byterraform"
     }
 
 }
@@ -97,7 +97,7 @@ resource "nsxt_policy_tier0_gateway_interface" "uplink1edgesecond" {
 
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "terraform"
     }
 
 }
@@ -116,7 +116,7 @@ resource "nsxt_policy_static_route" "default_route" {
 
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "terraform"
     }
 }
 
@@ -131,7 +131,7 @@ resource "nsxt_policy_dhcp_server" "tier1_dhcp" {
 
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "terraform"
     }
 }
 
@@ -153,7 +153,7 @@ resource "nsxt_policy_tier1_gateway" "tier1_new" {
  
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "terraform"
     }
  
     # route_advertisement_rule {
@@ -175,7 +175,7 @@ resource "nsxt_policy_segment" "tier1_segment1" {
 
     tag {
         scope = "demo"
-        tag   = "tftest"
+        tag   = "terraform"
     }
  
     subnet {   

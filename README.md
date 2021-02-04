@@ -7,7 +7,7 @@ In all iterations, at the end of the Terraform script, there is a static route a
 
 ## Iteration-2
 
-This example implements an active / standby Tier 0 configuration with Tier 1 and an overlay segment attached to Tier 1. The overlay segment has a DHCP configured. For now there does not seem to be support for HA VIP config on Tier 0. Hence that needs to be configured manually.
+This example implements an active / standby Tier 0 configuration with Tier 1 and an overlay segment attached to Tier 1. The overlay segment has a DHCP configured. As of May 2020 there does not seem to be support for HA VIP config on Tier 0. Hence that needs to be configured manually.
 
 ![](Topology.png)
 
